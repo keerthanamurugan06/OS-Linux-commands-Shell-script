@@ -356,7 +356,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+##OUTPU
 <img width="568" height="187" alt="image" src="https://github.com/user-attachments/assets/156e5bb5-a84b-4495-9fad-1e1c77d57f3c" />
 
 #Sorting File content
@@ -443,7 +443,8 @@ gzip backup.tar
 
 ls .gz
 ## OUTPUT
- <img width="285" height="142" alt="image" src="https://github.com/user-attachments/assets/25b75fe7-243e-4efe-9ecf-432bffd0f5f9" />
+<img width="426" height="117" alt="image" src="https://github.com/user-attachments/assets/af3288be-6d5c-4ded-854b-b27fecc9d0f3" />
+
 
 gunzip backup.tar.gz
 ## OUTPUT
@@ -519,9 +520,10 @@ ls file1
 <img width="425" height="75" alt="image" src="https://github.com/user-attachments/assets/54af5b74-5ca7-4910-ac0f-f6208da80fea" />
 
 echo $?
-## OUTPUT 
+
 ./one
 bash: ./one: Permission denied
+## OUTPUT 
  <img width="445" height="76" alt="image" src="https://github.com/user-attachments/assets/5e093d0f-74d4-4fd0-a44d-2392b8d832c4" />
 
 echo $?
@@ -808,6 +810,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+##OUTPUT
  <img width="480" height="76" alt="image" src="https://github.com/user-attachments/assets/0eb88436-7830-4504-8567-bfeeb90ad3f0" />
 
 cat > whiletest
@@ -824,6 +827,7 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+##OUTPUT
  <img width="605" height="290" alt="image" src="https://github.com/user-attachments/assets/b215308f-c164-43a6-bfe1-4b47329a7c03" />
 
  
@@ -838,6 +842,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+##OUTPUT
  <img width="400" height="127" alt="image" src="https://github.com/user-attachments/assets/4303f39b-e4a0-4f55-965c-8badcadfa1ee" />
 
  
@@ -853,7 +858,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ##OUTPUT
  <img width="372" height="185" alt="image" src="https://github.com/user-attachments/assets/a9a61ed3-6885-446f-b74b-569125742bb9" />
 
 cat forin2.sh 
@@ -867,6 +872,7 @@ done
  ```
  
 $ chmod 755 forin2.sh
+##OUTPU
 <img width="447" height="117" alt="image" src="https://github.com/user-attachments/assets/81e47c28-e960-44a6-a1ad-3552427c79e7" /> 
 
 cat forin2.sh 
@@ -1084,10 +1090,10 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+
  ./funcex.sh 
  ./funcex.sh 1 2
-
+##OUTPUT
  <img width="507" height="160" alt="image" src="https://github.com/user-attachments/assets/f3228600-70a5-4cba-a4b6-ffd5d33983a3" />
 
 cat argshift.sh
@@ -1101,9 +1107,10 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+<img width="435" height="122" alt="image" src="https://github.com/user-attachments/assets/cbed0424-a6a7-4528-abce-a33415da83d3" />
 $ ./argshift.sh 1 2 3
 
-<img width="435" height="122" alt="image" src="https://github.com/user-attachments/assets/cbed0424-a6a7-4528-abce-a33415da83d3" />
+
  
  cat argshift1.sh
 ```bash
