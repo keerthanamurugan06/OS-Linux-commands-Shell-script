@@ -270,22 +270,26 @@ cat > file23
 
 
 sed -n -e '3p' file23
+
 ## OUTPUT
 <img width="507" height="101" alt="image" src="https://github.com/user-attachments/assets/39377641-5c57-46a5-b2e6-195cc5cf283c" />
 
 
 sed -n -e '$p' file23
+
 ## OUTPUT
 
 <img width="500" height="97" alt="image" src="https://github.com/user-attachments/assets/ab5f99b0-d884-4d9e-9814-5b7bb87c033d" />
 
 sed  -e 's/Ram/Sita/' file23
+
 ## OUTPUT
 
 <img width="567" height="372" alt="image" src="https://github.com/user-attachments/assets/7a597d76-ea3a-43a2-9f03-76e98cd3bb88" />
 
 
 sed  -e '2s/Ram/Sita/' file23
+
 ## OUTPUT
 
 
@@ -346,17 +350,23 @@ seq 2 | sed '2i hello'
 <img width="517" height="181" alt="image" src="https://github.com/user-attachments/assets/9d884895-69d9-4415-9578-eb067a07ed25" />
 
 seq 10 | sed '2,9c hello'
+
 ## OUTPUT
+
+<img width="275" height="76" alt="image" src="https://github.com/user-attachments/assets/5a7a1dfe-5f49-4f7e-a274-d85f151f3b8b" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
+
 ## OUTPUT
 
 <img width="543" height="187" alt="image" src="https://github.com/user-attachments/assets/0ffb413c-992e-4a8d-a4f7-60c97362f304" />
 
 
 sed -n '2,4{s/$/*/;p}' file23
-##OUTPU
+
+##OUTPUT
+
 <img width="568" height="187" alt="image" src="https://github.com/user-attachments/assets/156e5bb5-a84b-4495-9fad-1e1c77d57f3c" />
 
 #Sorting File content
@@ -371,6 +381,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+<img width="220" height="86" alt="image" src="https://github.com/user-attachments/assets/0f7d2c84-1d6a-4c7a-873e-a6114fee0438" />
 
 cat > file22
 ```
@@ -694,7 +705,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
+
 ##OUTPUT
+
 <img width="593" height="125" alt="image" src="https://github.com/user-attachments/assets/ea710b46-55e8-4a94-9f31-7437bdf527ba" />
 
 # check if a file
@@ -744,7 +757,9 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
+
 ##OUTPUT
+
 <img width="471" height="105" alt="image" src="https://github.com/user-attachments/assets/ac754cf6-cf84-4080-adb6-15c9eed8bdfb" />
 
 # looking for a possible value using elif
@@ -773,6 +788,7 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
+
 ## OUTPUT
 
 <img width="703" height="91" alt="image" src="https://github.com/user-attachments/assets/19cfe216-1d2f-4d4c-a19c-a2454df87d72" />
@@ -790,7 +806,9 @@ fi
 ```
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
+
 ## OUTPUT
+
 <img width="682" height="100" alt="image" src="https://github.com/user-attachments/assets/ebf1387c-7958-49a3-8b7e-e2363fe966c1" />
 
 # using the case command
@@ -811,7 +829,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
 ##OUTPUT
+
  <img width="480" height="76" alt="image" src="https://github.com/user-attachments/assets/0eb88436-7830-4504-8567-bfeeb90ad3f0" />
 
 cat > whiletest
@@ -828,8 +848,10 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
 ##OUTPUT
- <img width="605" height="290" alt="image" src="https://github.com/user-attachments/assets/b215308f-c164-43a6-bfe1-4b47329a7c03" />
+
+<img width="605" height="290" alt="image" src="https://github.com/user-attachments/assets/b215308f-c164-43a6-bfe1-4b47329a7c03" />
 
  
 cat untiltest.sh 
@@ -843,7 +865,9 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+
 ##OUTPUT
+
  <img width="400" height="127" alt="image" src="https://github.com/user-attachments/assets/4303f39b-e4a0-4f55-965c-8badcadfa1ee" />
 
  
@@ -859,6 +883,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
  ##OUTPUT
  <img width="372" height="185" alt="image" src="https://github.com/user-attachments/assets/a9a61ed3-6885-446f-b74b-569125742bb9" />
 
@@ -873,7 +898,9 @@ done
  ```
  
 $ chmod 755 forin2.sh
-##OUTPU
+
+##OUTPUT
+
 <img width="447" height="117" alt="image" src="https://github.com/user-attachments/assets/81e47c28-e960-44a6-a1ad-3552427c79e7" /> 
 
 cat forin2.sh 
@@ -888,6 +915,7 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
 ##OUTPUT
 
 <img width="447" height="117" alt="image" src="https://github.com/user-attachments/assets/81e47c28-e960-44a6-a1ad-3552427c79e7" />
@@ -903,6 +931,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
  ##OUTPUT
  
  <img width="678" height="241" alt="image" src="https://github.com/user-attachments/assets/77d86a4e-d70f-4c43-a258-b492c48541ec" />
@@ -993,6 +1022,7 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
+
  ## OUTPUT
 
  <img width="580" height="335" alt="image" src="https://github.com/user-attachments/assets/a2e970b0-e083-48d5-b572-52f7e9b1d1dc" />
@@ -1016,6 +1046,7 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
 ## OUTPUT
 
  <img width="515" height="90" alt="image" src="https://github.com/user-attachments/assets/78c8b064-93b7-481c-8a1f-a32d1150d574" />
@@ -1094,7 +1125,9 @@ fi
 
  ./funcex.sh 
  ./funcex.sh 1 2
+ 
 ##OUTPUT
+
  <img width="507" height="160" alt="image" src="https://github.com/user-attachments/assets/f3228600-70a5-4cba-a4b6-ffd5d33983a3" />
 
 cat argshift.sh
@@ -1108,7 +1141,9 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+
 <img width="435" height="122" alt="image" src="https://github.com/user-attachments/assets/cbed0424-a6a7-4528-abce-a33415da83d3" />
+
 $ ./argshift.sh 1 2 3
 
 
@@ -1128,6 +1163,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+
 $ ./argshift.sh 1 2 3
 
 <img width="506" height="122" alt="image" src="https://github.com/user-attachments/assets/27eab6d7-6c65-45fa-add1-4e18bf179966" />
